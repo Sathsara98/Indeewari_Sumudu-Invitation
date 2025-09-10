@@ -1217,9 +1217,10 @@ iframe {
     object-fit: cover;
 }
 
-@media (max-width: 768px) {
+@media (min-width:300px) and (max-width: 768px) {
     .carousel-caption .text-start {
         text-align: center !important;
+        margin-top: 0px;
     }
 
     #countdown ul {
@@ -1242,4 +1243,57 @@ iframe {
         font-size: calc(1.125rem * var(--smaller));
     }
 
+    /* .top-text-wrapper {
+        margin-top: 325px;
+    } */
+
+    .save-date {
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+    }
+
+    .header-carousel-item {
+        height: 120vh !important;
+    }
+
+}
+
+@media (max-width: 300px) {
+    .carousel-caption .text-start {
+        text-align: center !important;
+        margin-top: 0px;
+    }
+
+    #countdown ul {
+        padding-left: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    #countdown li {
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-bottom: 0 !important;
+
+    }
+
+    #countdown li {
+        font-size: calc(1.125rem * var(--smaller));
+    }
+
+    #countdown li span {
+        font-size: calc(1.125rem * var(--smaller));
+    }
+
+    /* .top-text-wrapper {
+        margin-top: 325px;
+    } */
+
+    .save-date {
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+    }
+
+    .header-carousel-item {
+        height: 100vh !important;
+    }
 }
