@@ -210,7 +210,7 @@
             submitText.textContent = 'Submitting...';
 
             // Create a FormData object from the form
-            const formData = new FormData(this);
+            const formData = new URLSearchParams(new FormData(this));
             // Log all form values
             for (let [key, value] of formData.entries()) {
                 console.log(key + ": " + value);
@@ -243,10 +243,10 @@
         });
     });
 
-    function closePopup() {
+    window.closePopup = function () {
         document.getElementById('successPopup').style.display = 'none';
         document.getElementById("submitButton").disabled = false; // Re-enable submit button
-    }
+    };
 
     function disableButton() {
         const button = document.getElementById("submitButton");

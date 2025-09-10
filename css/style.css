@@ -1197,15 +1197,15 @@ iframe {
 .popup-content button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #e4a0b7;
-    border-color: #e4a0b7;
+    background-color: rgb(57, 96, 68);
+    border-color: rgb(57, 96, 68);
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .popup-content button:hover {
-    background-color: #df7599;
+    background-color: rgb(57, 96, 68);
 }
 
 .header-carousel-item {
