@@ -560,7 +560,7 @@ body {
     overflow: hidden;
     top: 0;
     left: 0;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/7-gallery-min.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/7-gallery-min.jpeg) center center no-repeat;
     background-size: cover;
     z-index: -2;
     animation-name: attraction-image-zoom;
